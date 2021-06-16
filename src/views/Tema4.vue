@@ -156,57 +156,57 @@
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Son muchos los sectores de actividad y en concreto sus productos que se ven condicionados por el ámbito legal al que pertenecen. Así pues, no son pocas las ocasiones en las que tanto el Estado como las comunidades autónomas y sus gobiernos regulan el precio de los servicios que prestan.
-            .col-md-3.px-3
+            .col-md-3.px-5
               figure
-                img.px-4(src='@/assets/curso/ley.svg', alt='El marco legal que regula el sector al que pertenece el producto')    
+                img.px-3(src='@/assets/curso/ley.svg', alt='El marco legal que regula el sector al que pertenece el producto')    
       div.row.justify-content-center(titulo="La estructura del mercado")
         .col-lg-11
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p En función de la estructura del mercado en el que se desenvuelva la empresa (monopolio, oligopolio, competencia perfecta o competencia monopolística), las empresas contarán con más o menos capacidad para fijar el precio de sus productos o servicios. Han sido muchas compañías acusadas por fijar precios a sus productos abusando de su poder en el mercado.
-            .col-md-3.col-6.px-3
+            .col-md-3.col-6.px-5
               figure
-                img.px-5(src='@/assets/curso/estructura-jerarquica.svg', alt='La estructura del mercado')    
+                img.px-4(src='@/assets/curso/estructura-jerarquica.svg', alt='La estructura del mercado')    
       div.row.justify-content-center(titulo="La competencia")
         .col-lg-11
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Cada vez más las empresas se ven obligadas a fijarse en los precios de sus competidores y en sus estrategias al fijar el precio de sus productos o al acometer cualquier tipo de modificación sobre los mismos. De este modo, durante el lanzamiento de un producto nuevo al mercado uno de los primeros factores a tener en cuenta es el precio, a través del cual la competencia está comercializando productos similares, por ejemplo, Movistar y Claro.
-            .col-md-3.px-3
+            .col-md-3.px-5
               figure
-                img.px-4(src='@/assets/curso/rival.svg', alt='La competencia')    
+                img.px-3(src='@/assets/curso/rival.svg', alt='La competencia')    
       div.row.justify-content-center(titulo="Los consumidores")
         .col-lg-11
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Las empresas comercializan sus productos o servicios para satisfacer las necesidades de sus clientes o consumidores. Por ello, cuando las empresas determinan o modifican el precio de sus productos deben tener presente su target. Así pues, si una compañía lanza un nuevo producto al mercado deberá conocer el precio que sus clientes estarán dispuestos a asumir.
-            .col-md-3.px-3
+            .col-md-3.px-5
               figure
-                img.px-4(src='@/assets/curso/consumidor.svg', alt='Los consumidores')    
+                img.px-3(src='@/assets/curso/consumidor.svg', alt='Los consumidores')    
       div.row.justify-content-center(titulo="Los distribuidores")
         .col-lg-11
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Cuando la empresa no distribuye o comercializa directamente sus productos debe recurrir a los intermediarios, esto supone un incremento en el canal de distribución, por lo que los costes también aumentan. De esta manera, los precios fijados por el fabricante determinan el precio final del producto.
-            .col-md-3.px-3
+            .col-md-3.px-5
               figure
-                img.px-4(src='@/assets/curso/distribuidores.png', alt='Los distribuidores')  
+                img.px-3(src='@/assets/curso/distribuidores.png', alt='Los distribuidores')  
       div.row.justify-content-center(titulo="Los proveedores")
         .col-lg-11
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p La empresa se ve condicionada a la hora de fijar sus precios por los precios a los que adquiere las materias primas con sus proveedores. Así pues, ante un incremento en el precio de estas materias primas los costes de fabricación y producción se ven afectados, por lo que salvo que la empresa decida disminuir su margen de beneficio, cualquier incremento en el precio de estas se verá reflejado en el precio del producto y soportado íntegramente por el consumidor final.
-            .col-md-3.px-3
+            .col-md-3.px-5
               figure
-                img.px-4(src='@/assets/curso/inventario.svg', alt='Los proveedores')
+                img.px-3(src='@/assets/curso/inventario.svg', alt='Los proveedores')
       div.row.justify-content-center(titulo="Los objetivos de la compañía")
         .col-lg-11
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Dependiendo de cuáles sean los objetivos de la empresa, la estrategia de precio seguida puede ser distinta, esto va a estar condicionado por el volumen de ventas que se quiera obtener o por la rapidez con la que la empresa desee expandirse, entre otros motivos.
-            .col-md-3.px-3
+            .col-md-3.px-5
               figure
-                img.px-4(src='@/assets/curso/objetivos.png', alt='Los objetivos de la compañía')                                          
+                img.px-3(src='@/assets/curso/objetivos.png', alt='Los objetivos de la compañía')                                          
 
     h3.mb-4 Métodos de fijación de precios
 
@@ -236,7 +236,7 @@
           .col-md-5.mb-4.mb-md-0
             h2 Fijación de precios basada en el valor para el cliente
             p Toma en consideración el valor percibido por los compradores, esto significa que el precio debe considerarse junto con todas las otras variables de la mezcla de marketing. Se evalúan las necesidades de los clientes y sus percepciones acerca del valor del producto y luego, establece un precio meta basado en dichas percepciones. Estas percepciones que tienen los clientes del valor establecen el límite máximo de los precios. 
-          .col-md-5
+          .col-md-4
             figure
               img(src='@/assets/curso/fijacion-precios1.svg', alt='Fijación de precios basada en el valor para el cliente')
       .py-4.py-md-5(titulo="Fijación de precios basada en el costo")
@@ -264,14 +264,14 @@
         .row
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
-              img(src='@/assets/curso/formula-precio-venta1.png' alt='Primera formula para hallar el precio de venta al público')
+              img.px-lg-2(src='@/assets/curso/formula-precio-venta1.png' alt='Primera formula para hallar el precio de venta al público')
               .tarjeta.color-rosa
                 .p-4
                   p.text-center Precio de venta con el que se recupera el costo
                   img.px-lg-5(src='@/assets/curso/formula-precio-venta-1.svg' alt='Formula para hallar el precio de venta al público')
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
-              img(src='@/assets/curso/formula-precio-venta2.png' alt='Segunda formula para hallar el precio de venta al público')
+              img.px-lg-2(src='@/assets/curso/formula-precio-venta2.png' alt='Segunda formula para hallar el precio de venta al público')
               .tarjeta.color-rosa
                 .p-4
                   p.text-center Precio de venta costo total
@@ -424,7 +424,7 @@
             .row
               .col-xl-3.mb-4.px-lg-4
                 figure
-                  img(src='@/assets/curso/megafono.svg', alt='Gastos de venta (CV)')
+                  img.px-lg-1(src='@/assets/curso/megafono.svg', alt='Gastos de venta (CV)')
               .col-xl-8
                 p Costos que se generan por la comercialización del producto, por ejemplo, los gastos de publicidad, comisiones a vendedores, gastos de distribución, servicio de teléfono, Internet, mantenimiento, luz, y sueldos exclusivamente de esta área.
           
@@ -433,7 +433,7 @@
             .row
               .col-xl-3.mb-4.px-lg-4
                 figure
-                  img.px-lg-1(src='@/assets/curso/informe.svg', alt='Gastos de administración (GA)')
+                  img.px-lg-2(src='@/assets/curso/informe.svg', alt='Gastos de administración (GA)')
               .col-xl-8
                 p Costos que se generan por la administración de la empresa, por ejemplo, los sueldos del contador general y del administrador, servicio de teléfono, Internet, mantenimiento y renta de oficinas exclusivamente de esta área.
           
@@ -442,7 +442,7 @@
             .row
               .col-xl-3.mb-4.px-lg-4
                 figure
-                  img(src='@/assets/curso/efectivo.svg', alt='Gastos financieros (GF)')
+                  img.px-lg-1(src='@/assets/curso/efectivo.svg', alt='Gastos financieros (GF)')
               .col-xl-8
                 p Costos que se generan por la obtención de efectivo, es decir, son los intereses que se deben pagar por los préstamos que se obtienen de instituciones financieras o de terceros, las comisiones bancarias, así como las pérdidas cambiarias.
           

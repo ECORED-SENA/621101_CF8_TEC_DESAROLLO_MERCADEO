@@ -105,8 +105,22 @@
     h3 Demanda potencial
     p.mb-4 En la siguiente infografía puede revisar el concepto de demanda potencial.
 
-    figure.mb-5
-      img.mb-2(src='@/assets/curso/demanda-potencial.svg', alt='Demanda potencial') 
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-4
+          .row.justify-content-around.align-items-center
+            .col-1
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/diagrama-de-flujo.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.p-3
+                  h3.mb-1 Mapa conceptual - Demanda potencial
+                  p.text-small En la siguiente infografía puede revisar el concepto de demanda potencial.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Figura-Demanda-Potencial.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
     .row.mb-5
       .col-lg-7.mb-3
@@ -135,23 +149,23 @@
           .row
             .col-md-3.mx-4
               figure
-                img(src='@/assets/curso/hamburguesa.svg', alt='Hamburguesa con papas fritas')
+                img.px-lg-4(src='@/assets/curso/hamburguesa.svg', alt='Hamburguesa con papas fritas')
             .col-md-8.mb-4.mb-md-0
               p Un sustituto es un bien que se puede utilizar en lugar de otro, por ejemplo, un viaje en autobús es un sustituto de un viaje en tren; una hamburguesa es sustituto de un hot dog; si el precio de un sustituto de la hamburguesa aumenta, la gente comprará menos unidades del sustituto y más de hamburguesas. Un complemento es un bien que se utiliza en conjunto con otro; las hamburguesas y las papas fritas son complementos, si el precio de la hamburguesa disminuye la gente agranda el combo y compra las papas fritas. 
       div.row.justify-content-center(titulo="Precios esperados en el futuro")
         .col-lg-10
           .row
-            .col-md-3
+            .col-md-3.mx-4
               figure
-                img(src='@/assets/curso/naranja.svg', alt='Naranja')
-            .col-md-9.mb-4.mb-md-0
+                img.px-lg-2(src='@/assets/curso/naranja.svg', alt='Naranja')
+            .col-md-8.mb-4.mb-md-0
               p Si el precio futuro esperado de un bien se incrementa y si este se puede almacenar, el costo de oportunidad de obtener el bien para uso futuro es menor hoy en día de lo que será, cuando la gente espera que su precio sea más alto. En consecuencia, las personas reprograman sus compras o, en otras palabras, hacen una sustitución temporal. Compran una mayor cantidad del bien ahora (y menos después), antes de que su precio suba, así que la demanda actual del bien aumenta, por ejemplo, suponga que la agricultura se ve azotada por una helada y daña la cosecha de naranjas de la temporada, la persona espera que el precio del jugo de naranja se eleve, así que llena su refrigerador con suficiente jugo congelado para estar abastecido durante los próximos seis meses; su demanda actual de jugo de naranja congelado ha aumentado y su demanda futura de dicho bien ha disminuido.
       div.row.justify-content-center(titulo="Ingreso")
         .col-lg-10
           .row
             .col-md-3.mx-4
               figure
-                img(src='@/assets/curso/ingresos.svg', alt='Ingresos')
+                img.px-lg-3(src='@/assets/curso/ingresos.svg', alt='Ingresos')
             .col-md-8.mb-4.mb-md-0
               p El ingreso de los consumidores también influye en la demanda, cuando el ingreso aumenta, los consumidores compran más de casi todos los bienes y cuando baja, los consumidores compran menos de casi todos los bienes. Aunque un incremento del ingreso implica un aumento en la demanda de la mayoría de bienes, no conlleva necesariamente a un incremento de la demanda de todos los bienes. Un bien normal es aquel cuya demanda aumenta, al aumentar el ingreso; un bien inferior es aquel cuya demanda disminuye al aumentar el ingreso, por ejemplo, al aumentar el ingreso la demanda de viajes en avión (un bien normal) se eleva, y la demanda de viajes largos en autobús (un bien inferior) disminuye.
       div.row.justify-content-center(titulo="Población")
@@ -159,7 +173,7 @@
           .row
             .col-md-3.mx-4
               figure
-                img(src='@/assets/curso/crecimiento.svg', alt='Crecimiento')
+                img.px-lg-3(src='@/assets/curso/crecimiento.svg', alt='Crecimiento')
             .col-md-8.mb-4.mb-md-0
               p La demanda depende también del tamaño y de la distribución por edades de la población, cuanto más numerosa es, mayor es la demanda de todos los bienes y servicios; a menor tamaño de la población, más reducida es la demanda de todos los bienes y servicios.
       div.row.justify-content-center(titulo="Preferencias")
@@ -167,7 +181,7 @@
           .row
             .col-md-3.mx-4
               figure
-                img(src='@/assets/curso/lucro.svg', alt='Lucro')
+                img.px-lg-3(src='@/assets/curso/lucro.svg', alt='Lucro')
             .col-md-8.mb-4.mb-md-0
               p La demanda depende, asimismo, de las preferencias, estas determinan el valor que la gente da a cada bien y servicio. Las preferencias tienen que ver con factores como el clima, la información y la moda, por ejemplo, el incremento de la conciencia de los beneficios de la salud y la buena condición física ha desplazado las preferencias a favor de la comida saludable, así que la demanda de dicho bien se ha elevado.
 

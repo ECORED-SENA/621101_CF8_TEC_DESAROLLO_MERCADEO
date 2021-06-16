@@ -91,7 +91,7 @@
           .row
             .col-md-2.mx-4
               figure
-                img.px-lg-3(src='@/assets/curso/gota-de-agua.svg', alt='Gota de agua')  
+                img.px-lg-4(src='@/assets/curso/gota-de-agua.svg', alt='Gota de agua')  
             .col-md-9.mb-4.mb-md-0
               p Crea un monopolio natural, es decir, una industria en la cual las economías de escala permiten que una empresa provea un bien o servicio a todo el mercado al costo más bajo posible; como ejemplos de monopolio natural están las empresas proveedoras de gas, agua y electricidad. 
       div.row.justify-content-center(titulo="Barrera de propiedad a la entrada")
@@ -99,7 +99,7 @@
           .row
             .col-md-2.mx-4
               figure
-                img.px-lg-3(src='@/assets/curso/esmeralda.svg', alt='Esmeralda')  
+                img.px-lg-4(src='@/assets/curso/esmeralda.svg', alt='Esmeralda')  
             .col-md-9.mb-4.mb-md-0
               p Ocurre cuando una empresa posee una parte significativa de un recurso importante, un ejemplo de este tipo de monopolio es la oferta de esmeraldas en Colombia. 
       div.row.justify-content-center(titulo="Barrera legal a la entrada")
@@ -107,7 +107,7 @@
           .row
             .col-md-2.mx-4
               figure
-                img(src='@/assets/curso/embajada.svg', alt='Embajada')  
+                img.px-lg-1(src='@/assets/curso/embajada.svg', alt='Embajada')  
             .col-md-9.mb-4.mb-md-0
               p Un mercado en el que la competencia y la entrada de nuevas empresas están restringidas por la concesión de una franquicia pública, una licencia gubernamental, una patente o por derechos de autor. Una franquicia pública es un derecho exclusivo que se concede a una empresa para que ofrezca un bien o servicio. Una licencia gubernamental controla la entrada a ocupaciones, profesiones e industrias particulares.
 

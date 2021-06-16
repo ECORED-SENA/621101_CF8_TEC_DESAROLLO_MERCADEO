@@ -19,7 +19,7 @@
             .bloque-texto-x__texto.p-4
               p Los datos están revolucionando la manera en la que funcionan las empresas y serán cada vez más importantes para las organizaciones en los próximos años. Las compañías que ven los datos como un recurso estratégico son las que sobrevivirán y progresarán; con el crecimiento masivo del big data y el internet de las cosas o IoT, además de los métodos para analizar los datos que evolucionan rápidamente, la importancia de estos en los negocios aumentará (Marr, 2018).
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-8.cajon.color-acento-contenido
         .row.justify-content-center.align-items-center
           .col-lg-2.col-3.p-lg-3.p-4
@@ -28,10 +28,22 @@
           .col-lg-9.p-lg-4.px-4
             p Se puede decir que business intelligence es un término utilizado para referirse a sistemas informáticos, cuya función es explotar los datos y la información almacenados en sistemas como CMR Customer Relationship Management, ERP Enterprise Resource Planning y SCM Supply Chain Management , mientras que el MI Marketing Intelligence o inteligencia de mercados es un proceso que se centra en la obtención de información del mercado que requiere la intervención humana, en la que la estructura organizativa, la función de interpretación y el aprendizaje tienen un papel muy importante (Ortoll, 2015).
 
-    .titulo-sexto.color-acento-contenido.titulo-img
-      h5 La inteligencia de marketing
-    figure.mb-4
-      img(src='@/assets/curso/inteligencia-marketing.svg', alt='Inteligencia de mercados') 
+    .row.justify-content-center.mb-3
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-4
+          .row.justify-content-around.align-items-center
+            .col-1
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/diagrama-de-flujo.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.p-3
+                  h3.mb-1 La inteligencia del marketing
+                  p.text-small En la figura se puede observar en qué consiste la inteligencia de marketing.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Figura-La-Inteligencia-del-Marketing.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
 
     Separador
@@ -144,7 +156,7 @@
           .col-md-5.mb-4.mb-md-0
             h4 La mejora de la toma de decisiones
             p En primer lugar, el big data permite a las empresas recoger mejores datos sobre el mercado y los clientes. 
-          .col-md-5
+          .col-md-4
             figure
               img(src='@/assets/curso/mejora-toma-decisiones.svg', alt='La mejora de la toma de decisiones')
       .py-4.py-md-5(titulo="La mejora de la actividad")
@@ -152,7 +164,7 @@
           .col-md-5.mb-4.mb-md-0
             h4 La mejora de la actividad
             p En segundo lugar, el big data ayuda a las empresas a ganar eficiencia y a aumentar su actividad. Desde el seguimiento del rendimiento de las máquinas hasta la optimización de las rutas de envío, pasando por la selección del mejor talento que haya.
-          .col-md-5
+          .col-md-4
             figure
               img(src='@/assets/curso/mejora-actividad.svg', alt='La mejora de la actividad')
       .py-4.py-md-5(titulo="La conversión de los datos en dinero")
@@ -160,7 +172,7 @@
           .col-md-5.mb-4.mb-md-0
             h4 La conversión de los datos en dinero
             p En tercer lugar, los datos también ofrecen a las empresas la oportunidad de integrar el big data en su oferta de productos, por lo tanto,  rentabilizar los datos en sí mismos. John Deere es un ejemplo de una empresa que no solamente utiliza los datos para beneficiar a sus clientes, sino también como una nueva oferta de productos.
-          .col-md-5
+          .col-md-4
             figure
               img(src='@/assets/curso/conversion-datos-dinero.svg', alt='La conversión de los datos en dinero')
 
