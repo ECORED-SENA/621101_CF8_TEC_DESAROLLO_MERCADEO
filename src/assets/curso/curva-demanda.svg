@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="505" height="300" viewBox="0 0 505 300">
+  <g id="Grupo_82008" data-name="Grupo 82008" transform="translate(-372.096 -2532.472)">
+    <rect id="Rectángulo_30802" data-name="Rectángulo 30802" width="505" height="300" transform="translate(372.096 2532.471)" fill="#fff"/>
+    <text id="Curva_de_Demanda" data-name="Curva de Demanda" transform="translate(534.879 2564.623)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Curva de Demanda</tspan></text>
+    <text id="Precio" transform="translate(462.562 2609.346)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Precio</tspan></text>
+    <text id="Cantidad" transform="translate(732.8 2794.896)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Cantidad</tspan></text>
+    <text id="Demanda" transform="translate(675.707 2727.654)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Demanda</tspan></text>
+    <text id="Q1" transform="translate(605.293 2810.121)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Q1</tspan></text>
+    <text id="Q2" transform="translate(656.677 2810.121)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Q2</tspan></text>
+    <text id="P1" transform="translate(452.095 2683.566)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">P1</tspan></text>
+    <text id="P2" transform="translate(452.095 2731.143)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">P2</tspan></text>
+    <path id="Trazado_140001" data-name="Trazado 140001" d="M476.906,2675.092H612.442v113.233" transform="translate(5.901)" fill="none" stroke="#a6a6a6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="4 4"/>
+    <path id="Trazado_140002" data-name="Trazado 140002" d="M477.541,2727.419H659.384v60.907" transform="translate(5.901)" fill="none" stroke="#a6a6a6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="4 4"/>
+    <line id="Línea_1548" data-name="Línea 1548" x2="139.876" y2="154.467" transform="translate(563.471 2614.511)" fill="none" stroke="#a81a21" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <path id="Trazado_140000" data-name="Trazado 140000" d="M721.869,2788.326H476.985V2618" transform="translate(5.901)" fill="none" stroke="#585858" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
