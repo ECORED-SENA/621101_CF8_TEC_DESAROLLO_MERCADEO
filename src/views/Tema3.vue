@@ -22,7 +22,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8.cajon.color-acento-contenido
         .row.justify-content-center.align-items-center
-          .col-lg-2.col-3.p-lg-3.p-4
+          .col-lg-2.col-4.p-lg-3.p-4
             figure
               img(src='@/assets/curso/icono-inteligencia.svg', alt='Icono sobre inteligencia de mercados')
           .col-lg-9.p-lg-4.px-4
@@ -139,7 +139,7 @@
       .col-lg-7.mb-3
         p A partir de la presentación que se muestra a continuación, puede analizar lo correspondiente a los macrodatos (big data).
         .row.justify-content-center.align-items-center.cajon.color-acento-contenido.mb-4
-          .col-lg-2.col-3.p-lg-2.p-3
+          .col-lg-2.col-4.p-lg-2.p-3
             figure
               img(src='@/assets/curso/big-data.svg', alt='Icono sobre Big data')
           .col-lg-9.p-lg-4.px-4
@@ -265,7 +265,7 @@ export default {
     &__img, &__img1, &__img2, &__contenido
       flex: 1 0 100%
     &__img, &__img1, &__img2
-      padding-top: 50%
+      padding-top: 62%
     &__contenido
       padding: 30px
     &__texto

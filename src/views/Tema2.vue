@@ -88,24 +88,24 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo="Barrera natural a la entrada")
         .col-lg-10
-          .row
-            .col-md-2.mx-4
+          .row.justify-content-center
+            .col-md-2.mx-4.col-4
               figure
                 img.px-lg-4(src='@/assets/curso/gota-de-agua.svg', alt='Gota de agua')  
             .col-md-9.mb-4.mb-md-0
               p Crea un monopolio natural, es decir, una industria en la cual las economías de escala permiten que una empresa provea un bien o servicio a todo el mercado al costo más bajo posible; como ejemplos de monopolio natural están las empresas proveedoras de gas, agua y electricidad. 
       div.row.justify-content-center(titulo="Barrera de propiedad a la entrada")
         .col-lg-10
-          .row
-            .col-md-2.mx-4
+          .row.justify-content-center
+            .col-md-2.mx-4.col-4
               figure
                 img.px-lg-4(src='@/assets/curso/esmeralda.svg', alt='Esmeralda')  
             .col-md-9.mb-4.mb-md-0
               p Ocurre cuando una empresa posee una parte significativa de un recurso importante, un ejemplo de este tipo de monopolio es la oferta de esmeraldas en Colombia. 
       div.row.justify-content-center(titulo="Barrera legal a la entrada")
         .col-lg-10
-          .row
-            .col-md-2.mx-4
+          .row.justify-content-center
+            .col-md-2.mx-4.col-4
               figure
                 img.px-lg-1(src='@/assets/curso/embajada.svg', alt='Embajada')  
             .col-md-9.mb-4.mb-md-0
@@ -136,24 +136,24 @@
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo="Compite un gran número de empresas")
         .col-lg-10
-          .row
-            .col-md-2.mx-4
+          .row.justify-content-center
+            .col-md-2.mx-4.col-4
               figure
                 img(src='@/assets/curso/empresa-2.svg', alt='Icono sobre empresa')  
             .col-md-9.mb-4.mb-md-0
               p La participación de mercado es pequeña, ya que cada empresa provee una pequeña parte de la producción total de la industria. En consecuencia, cada empresa tiene un poder limitado para influir en el precio de sus productos, el precio puede desviarse del precio promedio de las demás empresas en una cantidad relativamente pequeña, es por esto que es posible ignorar a otras empresas y no tener en cuenta a ninguno de sus competidores individuales. Debido a que todas las empresas son más o menos pequeñas, ninguna puede dictar las condiciones del mercado ni afectar, por tanto, las acciones de las demás, es imposible conspirar y coordinarse para fijar un precio más alto, práctica que se conoce como colusión. 
       div.row.justify-content-center(titulo="Cada empresa produce un producto diferenciado")
         .col-lg-10
-          .row
-            .col-md-2.mx-4
+          .row.justify-content-center
+            .col-md-2.mx-4.col-4
               figure
                 img(src='@/assets/curso/tenis.svg', alt='Tenis')  
             .col-md-9.mb-4.mb-md-0
               p Cuando el producto que elabora es ligeramente diferente de los de sus competidores. Un producto diferenciado es un sustituto cercano, pero no perfecto, de los productos de otras empresas. Algunas personas están dispuestas a pagar más por una variedad del producto, así que, cuando su precio sube, la cantidad demandada disminuye, pero no llega (necesariamente) a cero, por ejemplo, Adidas, Asics, Diadora, Etonic, Fila, New Balance, Nike, Puma y Reebok fabrican zapatillas deportivas diferenciadas.
       div.row.justify-content-center(titulo="Las empresas compiten con base en la calidad del producto, el precio y las actividades de marketing")
         .col-lg-10
-          .row
-            .col-md-2.mx-4
+          .row.justify-content-center
+            .col-md-2.mx-4.col-4
               figure
                 img(src='@/assets/curso/media-monitor-screen.svg', alt='Monitor de computador')  
             .col-md-9.mb-4.mb-md-0
@@ -164,8 +164,8 @@
                 | se realiza principalmente a través de dos actividades: la publicidad y el empacado. Una empresa que fabrica un producto de alta calidad desea venderlo a un precio alto adecuado, para poder hacerlo debe anunciar y empacar su producto de tal manera que convenza a los compradores de que gracias al mayor precio que están pagando pueden obtener una calidad más alta. 
       div.row.justify-content-center(titulo="Las empresas son libres de entrar y salir de la industria")
         .col-lg-10
-          .row
-            .col-md-2.mx-4
+          .row.justify-content-center
+            .col-md-2.mx-4.col-4
               figure
                 img(src='@/assets/curso/bancarrota.svg', alt='Bancarrota')  
             .col-md-9.mb-4.mb-md-0
@@ -251,7 +251,7 @@
     .row.justify-content-center.mb-2
       .col-lg-8
         .row.justify-content-center.align-items-center.cajon.color-acento-contenido
-          .col-lg-2.col-3.p-lg-3.p-3
+          .col-lg-2.col-4.p-lg-3.p-3
             figure
               img(src='@/assets/curso/rival.svg', alt='Icono sobre rival')
           .col-lg-9.p-lg-3.px-3
@@ -357,7 +357,7 @@ export default {
     &__img, &__img1, &__contenido
       flex: 1 0 100%
     &__img, &__img1
-      padding-top: 50%
+      padding-top: 62%
     &__contenido
       padding: 30px
     &__texto

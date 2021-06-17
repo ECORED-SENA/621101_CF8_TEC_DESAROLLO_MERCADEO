@@ -209,7 +209,7 @@ export default {
     &__img, &__img1, &__img2, &__contenido
       flex: 1 0 100%
     &__img, &__img1, &__img2
-      padding-top: 50%
+      padding-top: 62%
     &__contenido
       padding: 30px
     &__texto

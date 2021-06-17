@@ -34,7 +34,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Precio al consumidor")
             h4 Precio al consumidor
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img(src='@/assets/curso/consumidor.svg', alt='Precio al consumidor')
               .col-xl-8
@@ -43,7 +43,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Precio de fabricante")
             h4 Precio de fabricante
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img(src='@/assets/curso/fabrica.svg', alt='Precio de fabricante')
               .col-xl-8
@@ -52,7 +52,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Precio de distribuidor")
             h4 Precio de distribuidor
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img(src='@/assets/curso/camion-en-movimiento.svg', alt='Precio de distribuidor')
               .col-xl-8
@@ -61,7 +61,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Precio de mercadeo")
             h4 Precio de mercadeo
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img(src='@/assets/curso/demanda-copia.svg', alt='Precio de mercadeo')
               .col-xl-8
@@ -70,7 +70,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Precios basados en la competencia")
             h4 Precios basados en la competencia
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img(src='@/assets/curso/competencia.svg', alt='Precios basados en la competencia')
               .col-xl-8
@@ -79,7 +79,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Precios que le dan gusto al cliente")
             h4 Precios que le dan gusto al cliente
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img(src='@/assets/curso/objetivo.svg', alt='Precios que le dan gusto al cliente')
               .col-xl-8
@@ -156,7 +156,7 @@
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Son muchos los sectores de actividad y en concreto sus productos que se ven condicionados por el ámbito legal al que pertenecen. Así pues, no son pocas las ocasiones en las que tanto el Estado como las comunidades autónomas y sus gobiernos regulan el precio de los servicios que prestan.
-            .col-md-3.px-5
+            .col-md-3.px-5.col-9
               figure
                 img.px-3(src='@/assets/curso/ley.svg', alt='El marco legal que regula el sector al que pertenece el producto')    
       div.row.justify-content-center(titulo="La estructura del mercado")
@@ -164,7 +164,7 @@
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p En función de la estructura del mercado en el que se desenvuelva la empresa (monopolio, oligopolio, competencia perfecta o competencia monopolística), las empresas contarán con más o menos capacidad para fijar el precio de sus productos o servicios. Han sido muchas compañías acusadas por fijar precios a sus productos abusando de su poder en el mercado.
-            .col-md-3.col-6.px-5
+            .col-md-3.col-6.px-5.col-9
               figure
                 img.px-4(src='@/assets/curso/estructura-jerarquica.svg', alt='La estructura del mercado')    
       div.row.justify-content-center(titulo="La competencia")
@@ -172,7 +172,7 @@
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Cada vez más las empresas se ven obligadas a fijarse en los precios de sus competidores y en sus estrategias al fijar el precio de sus productos o al acometer cualquier tipo de modificación sobre los mismos. De este modo, durante el lanzamiento de un producto nuevo al mercado uno de los primeros factores a tener en cuenta es el precio, a través del cual la competencia está comercializando productos similares, por ejemplo, Movistar y Claro.
-            .col-md-3.px-5
+            .col-md-3.px-5.col-9
               figure
                 img.px-3(src='@/assets/curso/rival.svg', alt='La competencia')    
       div.row.justify-content-center(titulo="Los consumidores")
@@ -180,7 +180,7 @@
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Las empresas comercializan sus productos o servicios para satisfacer las necesidades de sus clientes o consumidores. Por ello, cuando las empresas determinan o modifican el precio de sus productos deben tener presente su target. Así pues, si una compañía lanza un nuevo producto al mercado deberá conocer el precio que sus clientes estarán dispuestos a asumir.
-            .col-md-3.px-5
+            .col-md-3.px-5.col-9
               figure
                 img.px-3(src='@/assets/curso/consumidor.svg', alt='Los consumidores')    
       div.row.justify-content-center(titulo="Los distribuidores")
@@ -188,7 +188,7 @@
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Cuando la empresa no distribuye o comercializa directamente sus productos debe recurrir a los intermediarios, esto supone un incremento en el canal de distribución, por lo que los costes también aumentan. De esta manera, los precios fijados por el fabricante determinan el precio final del producto.
-            .col-md-3.px-5
+            .col-md-3.px-5.col-9
               figure
                 img.px-3(src='@/assets/curso/distribuidores.png', alt='Los distribuidores')  
       div.row.justify-content-center(titulo="Los proveedores")
@@ -196,7 +196,7 @@
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p La empresa se ve condicionada a la hora de fijar sus precios por los precios a los que adquiere las materias primas con sus proveedores. Así pues, ante un incremento en el precio de estas materias primas los costes de fabricación y producción se ven afectados, por lo que salvo que la empresa decida disminuir su margen de beneficio, cualquier incremento en el precio de estas se verá reflejado en el precio del producto y soportado íntegramente por el consumidor final.
-            .col-md-3.px-5
+            .col-md-3.px-5.col-9
               figure
                 img.px-3(src='@/assets/curso/inventario.svg', alt='Los proveedores')
       div.row.justify-content-center(titulo="Los objetivos de la compañía")
@@ -204,7 +204,7 @@
           .row.justify-content-center
             .col-md-8.mb-4.mb-md-0.mx-lg-3
               p Dependiendo de cuáles sean los objetivos de la empresa, la estrategia de precio seguida puede ser distinta, esto va a estar condicionado por el volumen de ventas que se quiera obtener o por la rapidez con la que la empresa desee expandirse, entre otros motivos.
-            .col-md-3.px-5
+            .col-md-3.px-5.col-9
               figure
                 img.px-3(src='@/assets/curso/objetivos.png', alt='Los objetivos de la compañía')                                          
 
@@ -264,14 +264,14 @@
         .row
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
-              img.px-lg-2(src='@/assets/curso/formula-precio-venta1.png' alt='Primera formula para hallar el precio de venta al público')
+              img.px-lg-2.p-2(src='@/assets/curso/formula-precio-venta1.png' alt='Primera formula para hallar el precio de venta al público')
               .tarjeta.color-rosa
                 .p-4
                   p.text-center Precio de venta con el que se recupera el costo
-                  img.px-lg-5(src='@/assets/curso/formula-precio-venta-1.svg' alt='Formula para hallar el precio de venta al público')
+                  img.px-lg-5.px-4(src='@/assets/curso/formula-precio-venta-1.svg' alt='Formula para hallar el precio de venta al público')
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
-              img.px-lg-2(src='@/assets/curso/formula-precio-venta2.png' alt='Segunda formula para hallar el precio de venta al público')
+              img.px-lg-2.p-2(src='@/assets/curso/formula-precio-venta2.png' alt='Segunda formula para hallar el precio de venta al público')
               .tarjeta.color-rosa
                 .p-4
                   p.text-center Precio de venta costo total
@@ -287,23 +287,23 @@
         p Indica la relación que existe entre las ventas del período y los costos variables, tanto de producción como de operación que se utilizaron para generar productos o servicios. Para determinarlo a las ventas totales se le restan los costos variables totales, este resultado muestra el remanente que se obtiene, representa el margen con el que la empresa cuenta para cubrir los costos fijos y obtener una determinada utilidad en el período.
         .col-lg-5.col-9.mb-3
           figure
-            img.px-5(src='@/assets/curso/margen-contribucion-total.svg', alt='Margen de contribución total')
+            img.px-lg-5(src='@/assets/curso/margen-contribucion-total.svg', alt='Margen de contribución total')
       div.row.justify-content-center(titulo="Margen de contribución por unidad (MCU)")
         p Proporciona información sobre la relación que existe entre las ventas unitarias y el margen que se genera después de descontar los costos unitarios variables, lo cual está disponible para cubrir el costo fijo por unidad; su cálculo se realiza con los datos unitarios. Al precio de venta unitario (PVU) se le resta el costo variable unitario (CVU) o con datos generales, el margen de contribución total (MCT) se divide entre el total de unidades vendidas. 
-        .col-lg-4.col-9.mb-3
+        .col-lg-4.col-4.mb-3
           figure
-            img.px-5(src='@/assets/curso/margen-contribucion-unidad1.svg', alt='Margen de contribución por unidad (MCU)')
-        .col-lg-4.col-9.mb-3
+            img.px-lg-5(src='@/assets/curso/margen-contribucion-unidad1.svg', alt='Margen de contribución por unidad (MCU)')
+        .col-lg-4.col-4.mb-3
           figure
-            img.px-5(src='@/assets/curso/margen-contribucion-unidad2.svg', alt='Margen de contribución por unidad (MCU)')
-        .col-lg-4.col-9.mb-3
+            img.px-lg-5(src='@/assets/curso/margen-contribucion-unidad2.svg', alt='Margen de contribución por unidad (MCU)')
+        .col-lg-4.col-4.mb-3
           figure
-            img.px-5(src='@/assets/curso/margen-contribucion-unidad3.svg', alt='Margen de contribución por unidad (MCU)')        
+            img.px-lg-5(src='@/assets/curso/margen-contribucion-unidad3.svg', alt='Margen de contribución por unidad (MCU)')        
       div.row.justify-content-center(titulo="Margen de contribución por porcentajes")
         p El concepto de contribución marginal por porcentaje indica la proporción de las ventas con las que cuenta la organización para cubrir los costos fijos; esto queda después de disminuir el importe de los costos variables para solventar el importe de los costos fijos y poder generar una utilidad.
         .col-lg-4.col-9.mb-3
           figure
-            img.px-5(src='@/assets/curso/margen-contribucion-porcentajes.svg', alt='Margen de contribución por porcentajes')    
+            img.px-lg-5(src='@/assets/curso/margen-contribucion-porcentajes.svg', alt='Margen de contribución por porcentajes')    
 
     h3 Costos
 
@@ -422,7 +422,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Gastos de venta (CV)")
             h4 Gastos de venta (CV)
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img.px-lg-1(src='@/assets/curso/megafono.svg', alt='Gastos de venta (CV)')
               .col-xl-8
@@ -431,7 +431,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Gastos de administración (GA)")
             h4 Gastos de administración (GA)
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img.px-lg-2(src='@/assets/curso/informe.svg', alt='Gastos de administración (GA)')
               .col-xl-8
@@ -440,7 +440,7 @@
           .tarjeta.color-amarillo.p-4(titulo="Gastos financieros (GF)")
             h4 Gastos financieros (GF)
             .row
-              .col-xl-3.mb-4.px-lg-4
+              .col-xl-3.mb-4.px-lg-4.col-4
                 figure
                   img.px-lg-1(src='@/assets/curso/efectivo.svg', alt='Gastos financieros (GF)')
               .col-xl-8
@@ -550,11 +550,11 @@
             h4 El método ecuación
             p.mb-4 Para calcularlo se tiene en cuenta dividir el total de costos fijos entre el margen de contribución unitario.
             .row.justify-content-center
-              .col-md-3
+              .col-md-3.col-4.p-2
                 figure
                   img(src='@/assets/curso/metodo-ecuacion1.svg', alt='El método ecuación')
               .col-md-3    
-              .col-md-3
+              .col-md-3.col-4.p-2
                 figure
                   img(src='@/assets/curso/metodo-ecuacion2.svg', alt='El método ecuación')
       .py-3.py-md-4(titulo="El método gráfico")
@@ -633,7 +633,7 @@ export default {
     &__img, &__img1, &__img2, &__contenido
       flex: 1 0 100%
     &__img, &__img1, &__img2
-      padding-top: 50%
+      padding-top: 62%
     &__contenido
       padding: 30px
     &__texto

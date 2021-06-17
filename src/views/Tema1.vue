@@ -96,7 +96,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.cajon.color-acento-contenido
         .row.justify-content-center.align-items-center
-          .col-lg-2.col-3.p-lg-4.p-4
+          .col-lg-2.col-4.p-lg-4.p-4
             figure
               img(src='@/assets/curso/concepto.svg', alt='Icono sobre concepto')
           .col-lg-9.p-lg-4.px-4
@@ -146,42 +146,42 @@
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo="Precios de los bienes relacionados")
         .col-lg-10
-          .row
-            .col-md-3.mx-4
+          .row.justify-content-center
+            .col-md-3.col-5.mx-4
               figure
-                img.px-lg-4(src='@/assets/curso/hamburguesa.svg', alt='Hamburguesa con papas fritas')
+                img.px-lg-4.p-3(src='@/assets/curso/hamburguesa.svg', alt='Hamburguesa con papas fritas')
             .col-md-8.mb-4.mb-md-0
               p Un sustituto es un bien que se puede utilizar en lugar de otro, por ejemplo, un viaje en autobús es un sustituto de un viaje en tren; una hamburguesa es sustituto de un hot dog; si el precio de un sustituto de la hamburguesa aumenta, la gente comprará menos unidades del sustituto y más de hamburguesas. Un complemento es un bien que se utiliza en conjunto con otro; las hamburguesas y las papas fritas son complementos, si el precio de la hamburguesa disminuye la gente agranda el combo y compra las papas fritas. 
       div.row.justify-content-center(titulo="Precios esperados en el futuro")
         .col-lg-10
-          .row
-            .col-md-3.mx-4
+          .row.justify-content-center
+            .col-md-3.col-5.mx-4
               figure
-                img.px-lg-2(src='@/assets/curso/naranja.svg', alt='Naranja')
+                img.px-lg-4.p-3(src='@/assets/curso/naranja.svg', alt='Naranja')
             .col-md-8.mb-4.mb-md-0
               p Si el precio futuro esperado de un bien se incrementa y si este se puede almacenar, el costo de oportunidad de obtener el bien para uso futuro es menor hoy en día de lo que será, cuando la gente espera que su precio sea más alto. En consecuencia, las personas reprograman sus compras o, en otras palabras, hacen una sustitución temporal. Compran una mayor cantidad del bien ahora (y menos después), antes de que su precio suba, así que la demanda actual del bien aumenta, por ejemplo, suponga que la agricultura se ve azotada por una helada y daña la cosecha de naranjas de la temporada, la persona espera que el precio del jugo de naranja se eleve, así que llena su refrigerador con suficiente jugo congelado para estar abastecido durante los próximos seis meses; su demanda actual de jugo de naranja congelado ha aumentado y su demanda futura de dicho bien ha disminuido.
       div.row.justify-content-center(titulo="Ingreso")
         .col-lg-10
-          .row
-            .col-md-3.mx-4
+          .row.justify-content-center
+            .col-md-3.col-5.mx-4
               figure
-                img.px-lg-3(src='@/assets/curso/ingresos.svg', alt='Ingresos')
+                img.px-lg-4.p-3(src='@/assets/curso/ingresos.svg', alt='Ingresos')
             .col-md-8.mb-4.mb-md-0
               p El ingreso de los consumidores también influye en la demanda, cuando el ingreso aumenta, los consumidores compran más de casi todos los bienes y cuando baja, los consumidores compran menos de casi todos los bienes. Aunque un incremento del ingreso implica un aumento en la demanda de la mayoría de bienes, no conlleva necesariamente a un incremento de la demanda de todos los bienes. Un bien normal es aquel cuya demanda aumenta, al aumentar el ingreso; un bien inferior es aquel cuya demanda disminuye al aumentar el ingreso, por ejemplo, al aumentar el ingreso la demanda de viajes en avión (un bien normal) se eleva, y la demanda de viajes largos en autobús (un bien inferior) disminuye.
       div.row.justify-content-center(titulo="Población")
         .col-lg-10
           .row
-            .col-md-3.mx-4
+            .col-md-3.col-5.mx-4
               figure
-                img.px-lg-3(src='@/assets/curso/crecimiento.svg', alt='Crecimiento')
+                img.px-lg-4.p-3(src='@/assets/curso/crecimiento.svg', alt='Crecimiento')
             .col-md-8.mb-4.mb-md-0
               p La demanda depende también del tamaño y de la distribución por edades de la población, cuanto más numerosa es, mayor es la demanda de todos los bienes y servicios; a menor tamaño de la población, más reducida es la demanda de todos los bienes y servicios.
       div.row.justify-content-center(titulo="Preferencias")
         .col-lg-10
-          .row
-            .col-md-3.mx-4
+          .row.justify-content-center
+            .col-md-3.col-5.mx-4
               figure
-                img.px-lg-3(src='@/assets/curso/lucro.svg', alt='Lucro')
+                img.px-lg-4.p-3(src='@/assets/curso/lucro.svg', alt='Lucro')
             .col-md-8.mb-4.mb-md-0
               p La demanda depende, asimismo, de las preferencias, estas determinan el valor que la gente da a cada bien y servicio. Las preferencias tienen que ver con factores como el clima, la información y la moda, por ejemplo, el incremento de la conciencia de los beneficios de la salud y la buena condición física ha desplazado las preferencias a favor de la comida saludable, así que la demanda de dicho bien se ha elevado.
 
@@ -191,7 +191,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10.cajon.color-primario
         .row.justify-content-center.align-items-center.m-lg-4
-          .col-lg-5.p-lg-4.px-4.letras-pequenas
+          .col-lg-5.p-lg-4.p-4.letras-pequenas
             p Cuando la curva de demanda es una línea recta, la siguiente ecuación la describe: 
             p
               strong.fondo-suave P = a - b Q
@@ -206,7 +206,7 @@
               | y 
               strong b 
               | constantes positivas.
-          .col-lg-7.col-3.p-lg-4.p-4
+          .col-lg-7.col-10.p-lg-4.p-3
             figure
               img(src='@/assets/curso/curva-demanda.svg', alt='Curva de la demanda')
 
@@ -223,7 +223,7 @@
         figure.mb-4
           img(src='@/assets/curso/ley-demanda2.svg', alt='Ley de la demanda') 
         .row.justify-content-center.align-items-center.cajon.color-acento-contenido
-          .col-lg-2.col-3.p-lg-3.p-3
+          .col-lg-2.col-5.p-lg-3.p-3
             figure
               img(src='@/assets/curso/money-arrow-up-down-currency.svg', alt='Icono sobre ley de la demanda')
           .col-lg-9.p-lg-3.px-3
@@ -239,7 +239,7 @@
         figure.mb-4
           img(src='@/assets/curso/ejemplo-ley-demanda.svg', alt='Ejemplo Ley de la demanda') 
         .row.justify-content-center.align-items-center.cajon.color-acento-contenido
-          .col-lg-2.col-3.p-lg-3.p-3
+          .col-lg-2.col-5.p-lg-3.p-3
             figure
               img(src='@/assets/curso/barra-grafica.svg', alt='Icono sobre barra grafica')
           .col-lg-9.p-lg-3.px-3
@@ -344,61 +344,61 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center(titulo="Precios de los factores de producción")
         .col-lg-10
-          .row
+          .row.justify-content-center
             .col-md-9.mb-4.mb-md-0
               p Empleados para producir un bien e influyen en la oferta de este; la curva de oferta es el “precio mínimo de oferta”; si el precio de un factor de producción se eleva, el menor precio que el productor está dispuesto a aceptar por ese bien se incrementa, así que la oferta se reduce.
-            .col-md-2.mx-4
+            .col-md-2.col-5.mx-4
               figure
                 img(src='@/assets/curso/impresion-3d.svg', alt='Impresion 3D')  
       div.row.justify-content-center(titulo="Precios de los bienes relacionados que se producen ")
         .col-lg-10
-          .row
+          .row.justify-content-center
             .col-md-9.mb-4.mb-md-0
               p En las empresas influyen en la oferta, por ejemplo, si el precio de la carne de res aumenta, la oferta de piel vacuna también se incrementa. La carne de res y la piel vacuna son complementos en la producción, en otras palabras, son bienes que deben producirse en conjunto.
-            .col-md-2
+            .col-md-2.col-5
               figure
                 img(src='@/assets/curso/carne.svg', alt='Carne')            
       div.row.justify-content-center(titulo="Precios futuros esperados")
         .col-lg-10
-          .row
+          .row.justify-content-center
             .col-md-9.mb-4.mb-md-0
               p Si el precio futuro esperado de un bien aumenta, la utilidad generada en el futuro por su venta se incrementa y es superior que en la actualidad. Por lo tanto, la oferta disminuye hoy y se eleva en el futuro.
-            .col-md-2.mx-4
+            .col-md-2.mx-4.col-5
               figure
                 img(src='@/assets/curso/money-arrow-up-down-currency.svg', alt='Precios futuros esperados')         
       div.row.justify-content-center(titulo="Cantidad de proveedores")
         .col-lg-10
-          .row
+          .row.justify-content-center
             .col-md-9.mb-4.mb-md-0
               p Cuanto más grande es la cantidad de empresas que producen un bien, mayor es la oferta del mismo. Conforme entran nuevas empresas a una industria, la oferta en ella se incrementa. A medida que las empresas salen de una industria, la oferta en ellas disminuye.
-            .col-md-2.mx-4
+            .col-md-2.mx-4.col-5
               figure
                 img(src='@/assets/curso/empresa.svg', alt='Empresa')
       div.row.justify-content-center(titulo="Tecnología")
         .col-lg-10
-          .row
+          .row.justify-content-center
             .col-md-9.mb-4.mb-md-0
               p Se utiliza ampliamente para referirnos a la manera en que se emplean los factores de producción para fabricar un bien. Un cambio en la tecnología se da cuando se descubre un nuevo método que disminuye el costo de producir un bien. 
-            .col-md-2.mx-4
+            .col-md-2.mx-4.col-5
               figure
                 img(src='@/assets/curso/chip.svg', alt='chip')            
       div.row.justify-content-center(titulo="Condiciones naturales")
         .col-lg-10
-          .row
+          .row.justify-content-center
             .col-md-9.mb-4.mb-md-0
               p Estas incluyen todos los factores de la naturaleza que influyen en la producción, entre ellos están las condiciones climáticas y, de manera más amplia, el entorno natural. El buen clima puede incrementar la oferta de muchos productos agrícolas, mientras que el mal clima es capaz de reducir su oferta. Sucesos naturales extremos, como los terremotos, los tornados y los huracanes, también pueden influir en la oferta.
-            .col-md-2.mx-4
+            .col-md-2.mx-4.col-5
               figure
                 img(src='@/assets/curso/naturaleza.svg', alt='naturaleza')
 
     h3 Curva de la oferta            
 
     .row.justify-content-center.mb-5
-      .col-lg-10.cajon.color-primario
+      .col-lg-10.cajon.color-primario.p-4
         .row.justify-content-center.align-items-center.m-lg-4
           .col-lg-5.letras-pequenas
             p La cantidad ofrecida de cualquier bien o servicio es la cantidad que los vendedores quieren y pueden vender. Existen muchos factores que determinan la cantidad que se ofrece; pero el precio desempeña un papel muy importante. Cuando aumenta el precio del producto, vender ese producto es muy rentable y la cantidad que se ofrece es grande.  Los vendedores trabajan muchas horas, compran más máquinas para elaborarlo y contratan más personal. 
-          .col-lg-7
+          .col-lg-7.mb-3
             figure
               img(src='@/assets/curso/curva-oferta.svg', alt='Curva de la oferta')      
           .col-lg-12
@@ -491,7 +491,7 @@
     p.mb-4 Los problemas que surgen al emplear la pendiente de la curva de oferta para determinar la sensibilidad son los mismos que se consideran al analizar la sensibilidad de la cantidad demandada, así que se utilizará para ello una medición sin unidades: la elasticidad de la oferta (Parkin, 2014).
 
     .row.justify-content-center.mb-5
-      .col-lg-10.cajon.color-primario
+      .col-lg-10.cajon.color-primario.p-3
         .row.justify-content-center.align-items-center.m-lg-4
           .col-lg-12
             p La elasticidad de la oferta mide la sensibilidad de la cantidad ofrecida ante un cambio en el precio de un bien, cuando todas las demás influencias en los planes de venta permanecen sin modificación. La elasticidad de la oferta se calcula mediante la siguiente fórmula:
@@ -566,7 +566,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .row.justify-content-center.align-items-center.cajon.color-acento-contenido
-          .col-lg-2.col-3.p-lg-3.p-3
+          .col-lg-2.col-4.p-lg-3.p-3
             figure
               img(src='@/assets/curso/demanda.svg', alt='Icono sobre demanda')
           .col-lg-9.p-lg-3.px-3
@@ -624,7 +624,7 @@ export default {
     &__img, &__contenido
       flex: 1 0 100%
     &__img
-      padding-top: 50%
+      padding-top: 62%
     &__contenido
       padding: 30px
     &__texto
