@@ -293,45 +293,32 @@
     p.mb-4 En el siguiente gráfico puede analizar en qué consisten las etapas del proceso de benchmarking.
 
     .row.justify-content-center
-      .col-lg-9
-        #carouselExampleIndicators.carousel.slide.mb-4(data-bs-ride='carousel')
-          .carousel-indicators
-            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 5')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='5' aria-label='Slide 6')
-          .carousel-inner
-            .carousel-item.active
-              figure
-                img(src='@/assets/curso/proceso-benchmarking.svg', alt='Proceso Benchmarking')
-            .carousel-item
-              figure
-                img(src='@/assets/curso/proceso-benchmarking1.svg', alt='Determinar a qué se le realiza')
-            .carousel-item
-              figure
-                img(src='@/assets/curso/proceso-benchmarking2.svg', alt='Formar el equipo')
-            .carousel-item
-              figure
-                img(src='@/assets/curso/proceso-benchmarking3.svg', alt='Identificar los socios')
-            .carousel-item
-              figure
-                img(src='@/assets/curso/proceso-benchmarking4.svg', alt='Recopilar y analizar información')
-            .carousel-item
-              figure
-                img(src='@/assets/curso/proceso-benchmarking5.svg', alt='Actuar')
-          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
-            span.carousel-control-prev-icon(aria-hidden='true')
-            span.visually-hidden Previous
-          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
-            span.carousel-control-next-icon(aria-hidden='true')
-            span.visually-hidden Next
+      .col-lg-8
+        ImagenInfografica.color-secundario.mb-5
 
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/proceso-benchmarking.svg', alt='Proceso Benchmarking')
 
+          .tarjeta.color-acento-botones.p-4(x="50%" y="6.5%")
+            .h4.mb-2 Determinar a qué se le va a hacer benchmarking
+            p Se refiere a definir las áreas de la organización a las que se les va a hacer el benchmarking. Se deben identificar los recursos necesarios para su implementación (el personal idóneo que iniciará la investigación, el presupuesto y el tiempo total que se va a emplear).
 
+          .tarjeta.color-acento-botones.p-4(x="85.4%" y="33.3%")
+            .h4.mb-2 Formar el equipo de benchmarking
+            p Por la amplia información que se espera obtener y la importancia de la misma, el trabajo en equipo es el recurso fundamental en este logro. Cada miembro del equipo, en cualquier tipo de proyectos, deberá tener claras las tareas que va a desarrollar y sus responsabilidades.
 
+          .tarjeta.color-acento-botones.p-4(x="72.3%" y="76.3%")
+            .h4.mb-2 Identificar los socios del benchmarking
+            p Identificar las fuentes de donde se obtendrá la información (empresas destacadas del sector, expertos en el área que se investiga, información de agremiaciones). igualmente, se debe hacer una relación puntual de las necesidades de información como en cualquier tipo de investigación.
 
+          .tarjeta.color-acento-botones.p-4(x="28.3%" y="76.3%")
+            .h4.mb-2 Recopilar y analizar la información de benchmarking
+            p Se define en esta etapa los métodos para obtener información (encuesta, entrevista personal, diálogos con expertos, panel de ejecutivos del área investigada).
+
+          .tarjeta.color-acento-botones.p-4(x="14.6%" y="33.1%")
+            .h4.mb-2 Actuar
+            p Después de evaluar el informe del benchmarking que puede incluir recomendaciones, la compañía que inició el proceso implementará los correctivos o cambios necesarios con los que espera hacerse más competitiva y crecer como organización.
 
 
     
