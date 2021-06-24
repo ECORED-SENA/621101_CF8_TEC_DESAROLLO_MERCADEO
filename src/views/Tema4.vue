@@ -465,10 +465,10 @@
         p Consiste en la reducción por parte del vendedor del precio del producto cuando se adquiere un gran volumen de mercancía. Esta estrategia es muy habitual en el mercado industrial, en el que las empresas compran gran cantidad de productos para revenderlos o bien someterlos a un proceso de producción o elaboración (Baena, 2010).
         
       div.row.justify-content-center(titulo="Estrategia de aplazamiento de pago")
-        p El precio final se reduce en un porcentaje determinado cuando el pago se realiza al recibir la mercancía o, en un corto período de tiempo, (Baena, 2010).
+        p A través de esta estrategia el producto es ofrecido al cliente sin necesidad de que este abone íntegramente el valor del mismo, ya que se le concede la posibilidad de realizar el pago en varios períodos. En algunos casos, esta estrategia implica el recargo sobre el precio inicial de un tipo de interés (Baena, 2010).
 
       div.row.justify-content-center(titulo="Estrategia de descuento por pronto pago")
-        p A través de esta estrategia el producto es ofrecido al cliente sin necesidad de que este abone íntegramente el valor del mismo, ya que se le concede la posibilidad de realizar el pago en varios períodos. En algunos casos, esta estrategia implica el recargo sobre el precio inicial de un tipo de interés (Baena, 2010).
+        p El precio final se reduce en un porcentaje determinado cuando el pago se realiza al recibir la mercancía o, en un corto período de tiempo, (Baena, 2010).
 
       div.row.justify-content-center(titulo="Estrategia de precios bajos en períodos promocionales")
         p Consiste en la reducción del precio de una selección de productos en un período determinado, sin que los consumidores tengan conocimiento con antelación de cuándo se van a producir estos descuentos (Baena, 2010).

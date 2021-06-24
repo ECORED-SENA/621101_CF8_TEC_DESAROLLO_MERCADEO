@@ -171,7 +171,7 @@
             .col-md-9.mb-4.mb-md-0
               p No hay barreras para impedir que nuevas empresas entren a la industria en el largo plazo, en consecuencia, una empresa no puede obtener utilidades económicas en el largo plazo; cuando las empresas obtienen este tipo de utilidades otras empresas entran a la industria, lo que provoca una reducción de precios y elimina a la larga las utilidades económicas. Cuando las empresas incurren en pérdidas económicas algunas de ellas salen de la industria, con lo cual los precios se elevan y al final se erradica la pérdida económica. 
 
-    h3 Competencia monopolística 
+    h3 Oligopolio
 
     .row
       .col-lg-7.mb-3

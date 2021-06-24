@@ -133,7 +133,7 @@
         figure
           img(src='@/assets/curso/3-2-mineria-datos2.svg', alt='Graficas en tablet que salen en 3D') 
 
-    h3 Big data (Macrodatos).
+    h3 Big data (Macrodatos)
 
     .row
       .col-lg-7.mb-3
@@ -206,8 +206,6 @@
                   p.text-center El análisis del big data toma en cuenta todos los datos, estructurados y no estructurados, para conocer las complejas, evolutivas e interrelacionadas condiciones a fin de producir discernimientos más precisos.
 
     h3 Bases de datos  
-
-    p.mb-4 A partir de la presentación que se muestra a continuación, puede analizar lo correspondiente a los macrodatos (big data).
 
     .row.justify-content-center
       .col-lg-10

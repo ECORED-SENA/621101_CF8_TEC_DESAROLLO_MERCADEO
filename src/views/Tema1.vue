@@ -159,7 +159,9 @@
               figure
                 img.px-lg-4.p-3(src='@/assets/curso/naranja.svg', alt='Naranja')
             .col-md-8.mb-4.mb-md-0
-              p Si el precio futuro esperado de un bien se incrementa y si este se puede almacenar, el costo de oportunidad de obtener el bien para uso futuro es menor hoy en día de lo que será, cuando la gente espera que su precio sea más alto. En consecuencia, las personas reprograman sus compras o, en otras palabras, hacen una sustitución temporal. Compran una mayor cantidad del bien ahora (y menos después), antes de que su precio suba, así que la demanda actual del bien aumenta, por ejemplo, suponga que la agricultura se ve azotada por una helada y daña la cosecha de naranjas de la temporada, la persona espera que el precio del jugo de naranja se eleve, así que llena su refrigerador con suficiente jugo congelado para estar abastecido durante los próximos seis meses; su demanda actual de jugo de naranja congelado ha aumentado y su demanda futura de dicho bien ha disminuido.
+              p Si el precio futuro esperado de un bien se incrementa y si este se puede almacenar, el costo de oportunidad de obtener el bien para uso futuro es menor hoy en día de lo que será, cuando la gente espera que su precio sea más alto. En consecuencia, las personas reprograman sus compras o, en otras palabras, hacen una 
+                strong sustitución temporal. 
+                | Compran una mayor cantidad del bien ahora (y menos después), antes de que su precio suba, así que la demanda actual del bien aumenta, por ejemplo, suponga que la agricultura se ve azotada por una helada y daña la cosecha de naranjas de la temporada, la persona espera que el precio del jugo de naranja se eleve, así que llena su refrigerador con suficiente jugo congelado para estar abastecido durante los próximos seis meses; su demanda actual de jugo de naranja congelado ha aumentado y su demanda futura de dicho bien ha disminuido.
       div.row.justify-content-center(titulo="Ingreso")
         .col-lg-10
           .row.justify-content-center
@@ -227,7 +229,9 @@
             figure
               img(src='@/assets/curso/money-arrow-up-down-currency.svg', alt='Icono sobre ley de la demanda')
           .col-lg-9.p-lg-3.px-3
-            p A continuación, se da la explicación de la gráfica con el siguiente ejemplo: Juliana consume 20 chocolatinas cada mes, cuyo precio es $5, si el precio sube a $40, ella únicamente consumiría 5 chocolatinas; conforme el precio aumenta, ella compra cada vez menos chocolatinas. Finalmente, si el precio continúa aumentando ella no consumiría más chocolatinas. de cambio.
+            p 
+              strong A continuación, se da la explicación de la gráfica con el siguiente ejemplo: 
+              | Juliana consume 20 chocolatinas cada mes, cuyo precio es $5, si el precio sube a $40, ella únicamente consumiría 5 chocolatinas; conforme el precio aumenta, ella compra cada vez menos chocolatinas. Finalmente, si el precio continúa aumentando ella no consumiría más chocolatinas.
     
     h3 Demanda del mercado frente a la demanda individual
     p.mb-4 La curva de demanda que se explicó anteriormente muestra la demanda individual de un producto. Con la finalidad de analizar cómo funcionan los mercados es necesario determinar la demanda del mercado en su conjunto, es decir, la suma de las demandas individuales que existen de un bien o servicio específico (Mankiw, 2017). Tal como se muestra en la siguiente figura.

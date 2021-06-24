@@ -34,8 +34,8 @@
     .row.justify-content-center.mb-3
       .col-lg-10
         LineaTiempoD.color-acento-contenido
-            p.text-small(numero="1" titulo="El presupuesto de gastos de ventas") Que incluye los costos que se atribuyen directamente al proceso de ventas, como salario y comisión del personal de ventas, gastos de ventas y capacitación.                      
-            p.text-small(numero="2" titulo="El presupuesto de publicidad") Que incluye los gastos que se atribuyen de manera directa a la promoción por encima de la línea (como publicidad en televisión) y a la promoción debajo de la línea como un esquema de reembolso de cupones). Los métodos para determinar el nivel de estos presupuestos son:           
+            p(numero="1" titulo="El presupuesto de gastos de ventas") Que incluye los costos que se atribuyen directamente al proceso de ventas, como salario y comisión del personal de ventas, gastos de ventas y capacitación.                      
+            p(numero="2" titulo="El presupuesto de publicidad") Que incluye los gastos que se atribuyen de manera directa a la promoción por encima de la línea (como publicidad en televisión) y a la promoción debajo de la línea como un esquema de reembolso de cupones). Los métodos para determinar el nivel de estos presupuestos son:           
               ol.lista-ol--cuadro.m-3.lista-morada
                 li 
                   .lista-ol--cuadro__vineta
@@ -53,7 +53,7 @@
                   .lista-ol--cuadro__vineta
                     span.text-bold d
                   | El método incremental, supone que las ventas crecientes generarán una promoción creciente y viceversa, mientras que el inverso puede ser el remedio, es decir, es posible curar las ventas en caída con el aumento de los gastos en publicidad.
-            p.text-small(numero="3" titulo="El presupuesto administrativo") Representa el gasto en que debe incurrirse al operar la fuerza de venta; tales gastos cubren los costos de investigación de marketing, administración de ventas y apoyo al personal.
+            p(numero="3" titulo="El presupuesto administrativo") Representa el gasto en que debe incurrirse al operar la fuerza de venta; tales gastos cubren los costos de investigación de marketing, administración de ventas y apoyo al personal.
 
     Separador
 
@@ -84,9 +84,9 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         LineaTiempoD.color-acento-contenido
-            p.text-small(numero="a" titulo="Pronósticos a corto plazo") Suelen hacerse por períodos de hasta tres meses en el futuro y en realidad, se usan para fines tácticos como la planeación de la producción.
-            p.text-small(numero="b" titulo="Pronósticos a mediano plazo") Son importantes para el área de presupuesto, ya que es el punto de partida del pronóstico de ventas. De esta manera, si el pronóstico de ventas es incorrecto, todo el presupuesto será incorrecto. Si el pronóstico es demasiado optimista, la compañía tendrá inventarios no vendidos, que deben financiarse con capital de trabajo. Si el pronóstico es pesimista, la empresa quizá pierda oportunidades de marketing por no estar preparada para fabricar los bienes adicionales que demanda el mercado. Los pronósticos a mediano plazo suelen considerar un período de un año.
-            p.text-small(numero="c" titulo="Pronósticos a largo plazo") Suelen obtenerse para períodos de tres años o más, dependiendo del tipo de industria. En industrias como las de computadoras, tres años se considera largo plazo, mientras que para la manufactura de acero, el horizonte a largo plazo típico es de 10 años. Estos pronósticos se trabajan a partir de factores macroambientales como políticas de gobierno, tendencias económicas, etc. 
+            p(numero="a" titulo="Pronósticos a corto plazo") Suelen hacerse por períodos de hasta tres meses en el futuro y en realidad, se usan para fines tácticos como la planeación de la producción.
+            p(numero="b" titulo="Pronósticos a mediano plazo") Son importantes para el área de presupuesto, ya que es el punto de partida del pronóstico de ventas. De esta manera, si el pronóstico de ventas es incorrecto, todo el presupuesto será incorrecto. Si el pronóstico es demasiado optimista, la compañía tendrá inventarios no vendidos, que deben financiarse con capital de trabajo. Si el pronóstico es pesimista, la empresa quizá pierda oportunidades de marketing por no estar preparada para fabricar los bienes adicionales que demanda el mercado. Los pronósticos a mediano plazo suelen considerar un período de un año.
+            p(numero="c" titulo="Pronósticos a largo plazo") Suelen obtenerse para períodos de tres años o más, dependiendo del tipo de industria. En industrias como las de computadoras, tres años se considera largo plazo, mientras que para la manufactura de acero, el horizonte a largo plazo típico es de 10 años. Estos pronósticos se trabajan a partir de factores macroambientales como políticas de gobierno, tendencias económicas, etc. 
     
     h3 Métodos para realizar pronósticos
     .row.mb-5
