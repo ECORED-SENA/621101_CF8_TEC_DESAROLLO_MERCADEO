@@ -583,7 +583,9 @@
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido.titulo-img
-          h5 Punto de equilibrio
+          h5 
+            strong Figura 19. 
+            | Punto de equilibrio
         figure.mb-5
           img.mb-3(src='@/assets/curso/punto-de-equilibrio.svg', alt='Punto de equilibrio') 
 

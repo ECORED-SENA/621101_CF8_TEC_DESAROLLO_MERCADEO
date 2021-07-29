@@ -85,8 +85,8 @@
           li 
             i.fas.fa-caret-right
             p.mb-0 
-              strong La disminución o incremento poblacional 
-              | genera que la demanda tenga un desplazamiento a mano derecha o a mano izquierda, esto se determina por el incremento o disminución de los consumidores.
+              strong La disminución o incremento poblacional. 
+              | Genera que la demanda tenga un desplazamiento a mano derecha o a mano izquierda, esto se determina por el incremento o disminución de los consumidores.
           li 
             i.fas.fa-caret-right
             p.mb-0 
@@ -476,7 +476,7 @@
       | Elasticidad precio de la oferta
     .row.mb-4
       .col-lg-7.mb-3
-        p Mide qué tanto responde la cantidad ofrecida a los cambios del precio. La oferta de un bien se dice que es elástica si la cantidad ofrecida del mismo responde de forma significativa a cambios en su precio. La oferta se dice que es inelástica si la cantidad ofrecida de un bien responde ligeramente a cambios en el precio. La elasticidad precio de la oferta depende de la flexibilidad de los vendedores para modificar la cantidad de bienes que producen, por ejemplo, los terrenos que en la playa tienen oferta inelástica porque es casi imposible producir más de estos. Por otro lado, los bienes manufacturados como los libros, los automóviles y los televisores tienen ofertas elásticas porque ante los incrementos del precio, el cambio porcentual de la cantidad ofrecida puede aumentar, debido a que las fábricas pueden trabajar más tiempo y producir más (Mankiw, 2017).(Mankiw, 2017).
+        p Mide qué tanto responde la cantidad ofrecida a los cambios del precio. La oferta de un bien se dice que es elástica si la cantidad ofrecida del mismo responde de forma significativa a cambios en su precio. La oferta se dice que es inelástica si la cantidad ofrecida de un bien responde ligeramente a cambios en el precio. La elasticidad precio de la oferta depende de la flexibilidad de los vendedores para modificar la cantidad de bienes que producen, por ejemplo, los terrenos que en la playa tienen oferta inelástica porque es casi imposible producir más de estos. Por otro lado, los bienes manufacturados como los libros, los automóviles y los televisores tienen ofertas elásticas porque ante los incrementos del precio, el cambio porcentual de la cantidad ofrecida puede aumentar, debido a que las fábricas pueden trabajar más tiempo y producir más (Mankiw, 2017).
       .col-lg-5
         figure
           img(src='@/assets/curso/digital-increasing-bar-graph-with-businessman-hand-overlay.svg', alt='Barra de gráficos creciendo')      
